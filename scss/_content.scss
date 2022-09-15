@@ -1,0 +1,23 @@
+.box{
+    font-family: $seconndaryFont;
+    font-size: $textLg;
+    font-weight: $textRegular;
+}
+
+
+
+h1 {
+    color: $keyColor;
+}
+
+h2 {
+    color: $secondaryColor;
+}
+
+h3{
+    color: $keyColor;
+}
+
+h1,h2,h3{
+    font-family: $mainFont;
+}

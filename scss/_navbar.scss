@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $mainColor;
+
+    img {
+        width: 150px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-right: 10px;
+
+            a {
+                text-decoration: none;
+                color: $keyColor;
+                font-size: $textMd;
+                font-family: $mainFont;
+
+                &:hover {
+                    color: $white;
+                }
+
+            }
+        }
+    }
+
+}
